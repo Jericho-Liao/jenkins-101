@@ -65,8 +65,11 @@ docker inspect <container_id> | grep IPAddress
 ```
 ## if occure error
 net stop winnat
+
 docker start container_name
+
 net start winnat
+
 ## Using my Jenkins Python Agent
 ```
 docker pull devopsjourney1/myjenkinsagents:python
